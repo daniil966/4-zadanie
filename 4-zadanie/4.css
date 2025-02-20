@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+    background-color: red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff2121; 
+    border-bottom: 1px solid #9c7d7d;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #69ff2e; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #a7f896; 
+}
+
+
+.hero {
+    background-image: url('https://avatars.mds.yandex.net/i?id=960874e5d5c4939759111898726d78ce_l-5279067-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    background-color: rgba(26, 32, 24, 0.8);
+    padding: 20px 40px;
+    margin: 150px auto;
+    border-bottom: 8px #ffffff solid;
+    border-left: 8px #a5ada7 solid;
+    border-right: 8px #2c7943 solid;
+    border-top: 8px #12e056 solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #91d472;
+    text-align: center;
+    color: aquamarine;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    background-color: #40ac32; 
+    color: white; 
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #347e25; 
+}
+
+
+footer {
+    background-color: #ff2121; 
+    color: white; 
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links a {
+    color: white; 
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.doli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 102px; 
+}
+
+.doli a {
+    margin: 0 10px;
+}
+
+
+
+
